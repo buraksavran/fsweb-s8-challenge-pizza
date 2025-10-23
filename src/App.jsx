@@ -2,13 +2,14 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import workintech from '/workintech.svg'
 import './App.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <div>
+     <div>
         <a href="https://github.com/Workintech/fsweb-s7-challenge-pizza" target="_blank">
           <img src={workintech} className="logo" alt="Workintech logo" />
         </a>
